@@ -11,6 +11,7 @@ setInput(event.target.value)
 
  const resetSubmit = (event, input) => {
      handleSubmit(event, input);
+     setInput("")
  }
     
     return (
